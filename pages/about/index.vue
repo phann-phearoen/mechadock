@@ -27,10 +27,10 @@
 </template>
 <script>
 import { mapGetters } from 'vuex'
-import AboutTitle from '../../../../components/homepage-kit/demo/logos/about.vue'
+import AboutTitle from '../../components/logos/about.vue'
 import { gsap } from 'gsap'
-import AboutText from '../../../../components/homepage-kit/demo/about/about-text.vue'
-import AboutOptions from '../../../../components/homepage-kit/demo/about/options.vue'
+import AboutText from '../../components/about/about-text.vue'
+import AboutOptions from '../../components/about/options.vue'
 export default {
   components: {
     AboutTitle,

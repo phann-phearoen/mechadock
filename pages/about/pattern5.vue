@@ -46,7 +46,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import textGenerator from '../../../../animations/textGenerator'
+import textGenerator from '../../helper/textGenerator'
 export default {
   computed: {
     ...mapGetters('homepage-kit', ['color']),

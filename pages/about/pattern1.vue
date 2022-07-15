@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import textGenerator from '../../../../animations/textGenerator'
+import textGenerator from '../../helper/textGenerator'
 import { mapGetters } from 'vuex'
 export default {
   computed: {
