@@ -50,7 +50,7 @@ export default {
   methods: {
     viewNews() {
       this.$store.commit('news/set_dummy', this.item)
-      this.$router.push(`/homepage-kit/demo/news/${this.id}`)
+      this.$router.push(`/news/${this.id}`)
     },
   },
 }
