@@ -118,11 +118,11 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import textGenerator from '../../../../animations/textGenerator'
-import RecruitTitle from '../../../../components/homepage-kit/demo/recruit/recruit-title.vue'
-import RecruitSquareCard from '../../../../components/homepage-kit/demo/recruit/recruit-square-card.vue'
-import Qna from '../../../../components/homepage-kit/demo/recruit/qna.vue'
-import Contact from '../../../../components/homepage-kit/demo/recruit/contact.vue'
+import textGenerator from '../../helper/textGenerator'
+import RecruitTitle from '../../components/recruit/recruit-title.vue'
+import RecruitSquareCard from '../../components/recruit/recruit-square-card.vue'
+import Qna from '../../components/recruit/qna.vue'
+import Contact from '../../components/recruit/contact.vue'
 export default {
   components: {
     RecruitTitle,

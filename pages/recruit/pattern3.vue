@@ -108,9 +108,9 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import textGenerator from '../../../../animations/textGenerator'
-import RecruitTitle from '../../../../components/homepage-kit/demo/recruit/recruit-title.vue'
-import Contact from '../../../../components/homepage-kit/demo/recruit/contact.vue'
+import textGenerator from '../../helper/textGenerator'
+import RecruitTitle from '../../components/recruit/recruit-title.vue'
+import Contact from '../../components/recruit/contact.vue'
 export default {
   components: { RecruitTitle, Contact, },
   computed: {
