@@ -47,7 +47,6 @@ import NewsTitle from '../../../../components/homepage-kit/demo/logos/news.vue'
 import NewsCard from '../../../../components/homepage-kit/demo/news/card.vue'
 import textGenerator from '../../../../animations/textGenerator'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     NewsTitle,
     NewsCard,

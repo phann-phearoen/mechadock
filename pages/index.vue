@@ -21,7 +21,6 @@
 <script>
 import { mapGetters } from 'vuex'
 export default {
-  layout: 'homepagekit-demo',
   data() {
     return {
       colorPicker: false,

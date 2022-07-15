@@ -124,7 +124,6 @@ import RecruitSquareCard from '../../../../components/homepage-kit/demo/recruit/
 import Qna from '../../../../components/homepage-kit/demo/recruit/qna.vue'
 import Contact from '../../../../components/homepage-kit/demo/recruit/contact.vue'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     RecruitTitle,
     RecruitSquareCard,

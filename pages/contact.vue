@@ -45,7 +45,6 @@
 import CustomTitle from '../../../components/homepage-kit/demo/recruit/recruit-title.vue'
 import { mapGetters } from 'vuex'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     CustomTitle,
   },

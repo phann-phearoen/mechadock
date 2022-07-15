@@ -101,7 +101,6 @@
 import { mapGetters } from 'vuex'
 import textGenerator from '../../../../animations/textGenerator'
 export default {
-  layout: 'homepagekit-demo',
   computed: {
     ...mapGetters('homepage-kit', ['color']),
   },

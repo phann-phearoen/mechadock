@@ -46,7 +46,6 @@ import { gsap } from 'gsap'
 import RecruitTitle from '../../../../components/homepage-kit/demo/logos/recruit.vue'
 import RecruitCard from '../../../../components/homepage-kit/demo/recruit/recruit-card.vue'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     RecruitTitle,
     RecruitCard,

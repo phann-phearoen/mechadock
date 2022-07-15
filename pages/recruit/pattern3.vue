@@ -112,7 +112,6 @@ import textGenerator from '../../../../animations/textGenerator'
 import RecruitTitle from '../../../../components/homepage-kit/demo/recruit/recruit-title.vue'
 import Contact from '../../../../components/homepage-kit/demo/recruit/contact.vue'
 export default {
-  layout: 'homepagekit-demo',
   components: { RecruitTitle, Contact, },
   computed: {
     ...mapGetters('homepage-kit', ['color']),

@@ -74,7 +74,6 @@ import ServicesTitle from '../../../components/homepage-kit/demo/logos/services.
 import textGenerator from '../../../animations/textGenerator'
 import { gsap } from 'gsap'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     ServicesTitle,
   },

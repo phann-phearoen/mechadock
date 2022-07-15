@@ -32,7 +32,6 @@ import { gsap } from 'gsap'
 import AboutText from '../../../../components/homepage-kit/demo/about/about-text.vue'
 import AboutOptions from '../../../../components/homepage-kit/demo/about/options.vue'
 export default {
-  layout: 'homepagekit-demo',
   components: {
     AboutTitle,
     AboutText,
