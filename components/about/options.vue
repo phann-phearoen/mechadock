@@ -30,27 +30,27 @@ export default {
     return {
       options: [
         {
-          route: '/homepage-kit/demo/about/pattern1',
+          route: '/about/pattern1',
           text: 'パターン①',
         },
         {
-          route: '/homepage-kit/demo/about/pattern2',
+          route: '/about/pattern2',
           text: 'パターン②',
         },
         {
-          route: '/homepage-kit/demo/about/pattern3',
+          route: '/about/pattern3',
           text: 'パターン③',
         },
         {
-          route: '/homepage-kit/demo/about/pattern4',
+          route: '/about/pattern4',
           text: 'パターン④',
         },
         {
-          route: '/homepage-kit/demo/about/pattern5',
+          route: '/about/pattern5',
           text: 'パターン⑤',
         },
         {
-          route: '/homepage-kit/demo/about/pattern6',
+          route: '/about/pattern6',
           text: 'パターン⑥',
         },
       ]

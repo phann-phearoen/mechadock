@@ -6,7 +6,6 @@
       elevation="2"
 		>
 			<div
-        v-if="currentRoute.includes('demo')"
         class="rounded-circle mx-auto mt-4 drawer-btn" 
         style="
           cursor:pointer;
@@ -90,12 +89,8 @@ export default {
       if(route === this.currentRoute) {
         return
       }
-      if(this.currentRoute.includes('demo')) {
-        if(route === '/top') {
-          this.$router.push('/homepage-kit/demo')
-          return
-        }
-        this.$router.push(`/homepage-kit/demo${route}`)
+      if(route === '/top') {
+        this.$router.push('/')
         return
       }
       this.$router.push(route)
