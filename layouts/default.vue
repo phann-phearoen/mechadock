@@ -1,118 +1,182 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
+  <v-app :dark="setTheme">
+    <div
+      id="the-nav-spacer"
+      class="d-block d-sm-none"
+      style="height: 70px"
+    ></div>
+    <Nuxt />
+    <the-footer></the-footer>
+    <left-drawer
+      :aboutOptions="aboutOptions"
+      :recruitOptions="recruitOptions"
+    ></left-drawer>
+    <right-drawer></right-drawer>
+    <the-nav></the-nav>
+    <v-dialog
+      width="300"
+      v-model="colorPicker"
+      id="color-picker"
     >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
+      <v-card width="300">
+				<v-card-title>サイトカラーを選択</v-card-title>
+				<v-divider></v-divider>
+				<v-card-text>
+					<v-color-picker
+						width="290"
+						dot-size="20"
+						swatches-max-height="100"
+						mode="hexa"
+						hide-inputs
+						v-model="localColor"
+					></v-color-picker>
+				</v-card-text>
+				<v-card-actions>
+					<v-btn
+						class="mt-4 ml-auto"
+						elevation="0"
+						@click="colorPicker=false"
+					>取り消す</v-btn>
+					<v-spacer></v-spacer>
+					<v-btn
+						class="mt-4 ml-auto"
+						elevation="0"
+						color="blue"
+						dark
+						@click="pickColor()"
+					>続ける</v-btn>
+				</v-card-actions>
+			</v-card>
+    </v-dialog>
+    <img
+      v-if="colorPopup"
+      id="color-popup"
+      :src="require(`~/assets/homepage-kit/color-popup.svg`)"
+      width="30%"
+      class="d-none d-sm-block"
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-    </v-app-bar>
-    <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
-    </v-main>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
+    <img
+      v-if="colorPopup"
+      id="color-popup-small"
+      :src="require(`~/assets/homepage-kit/color-popup-small.svg`)"
+      width="90%"
+      class="d-block d-sm-none"
     >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :absolute="!fixed"
-      app
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
   </v-app>
 </template>
 
 <script>
+import RightDrawer from '../components/right-drawer.vue'
+import TheFooter from '../components/homepage-kit/demo/the-footer.vue'
+import LeftDrawer from '../components/left-drawer.vue'
+import TheNav from '../components/homepage-kit/demo/the-nav.vue'
 export default {
-  name: 'DefaultLayout',
-  data () {
+  components: {
+    RightDrawer,
+    TheFooter,
+    LeftDrawer,
+    TheNav,
+  },
+  data() {
     return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      items: [
+      colorPicker: false,
+      localColor: null,
+      aboutOptions: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+          route: '/homepage-kit/demo/about/pattern1',
+          text: 'パターン①',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
+          route: '/homepage-kit/demo/about/pattern2',
+          text: 'パターン②',
+        },
+        {
+          route: '/homepage-kit/demo/about/pattern3',
+          text: 'パターン③',
+        },
+        {
+          route: '/homepage-kit/demo/about/pattern4',
+          text: 'パターン④',
+        },
+        {
+          route: '/homepage-kit/demo/about/pattern5',
+          text: 'パターン⑤',
+        },
+        {
+          route: '/homepage-kit/demo/about/pattern6',
+          text: 'パターン⑥',
+        },
       ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+      recruitOptions: [
+        {
+          route: '/homepage-kit/demo/recruit/pattern1',
+          text: 'パターン①',
+        },
+        {
+          route: '/homepage-kit/demo/recruit/pattern2',
+          text: 'パターン②',
+        },
+        {
+          route: '/homepage-kit/demo/recruit/pattern3',
+          text: 'パターン③',
+        },
+      ],
+      colorPopup: true,
     }
-  }
+  },
+  computed: {
+		setTheme () {
+			this.$vuetify.theme.dark = false
+		},
+    currentRoute() {
+      return this.$route.path
+    },
+  },
+  methods: {
+    pickColor() {
+      this.$store.commit('homepage-kit/set_color', this.localColor.hex)
+      this.colorPicker = false
+    },
+  },
+  mounted() {
+    this.$nuxt.$on('openColorPicker', () => {
+      this.colorPicker = true
+    })
+    setTimeout(() => {
+      this.colorPopup = false
+    }, 3000)
+  },
+  beforeDestroy() {
+    this.$nuxt.$off('openColorPicker')
+  },
 }
 </script>
+
+<style>
+.demo-container {
+  max-width: 1000px !important;
+  padding: 8rem 0 !important;
+}
+.pattern-title {
+  margin-bottom: 10rem;
+}
+.text-extra-big {
+  font-size: 3rem;
+}
+.text-big {
+  font-size: 2rem;
+}
+.text-medium {
+  font-size: 1rem;
+}
+#color-popup {
+  position: fixed;
+  right: 75px;
+  top: 50px;
+} 
+#color-popup-small {
+  position: fixed;
+  left: 10px;
+  top: 80px;
+}
+</style>
