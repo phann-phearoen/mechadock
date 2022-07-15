@@ -43,9 +43,9 @@
 <script>
 import { mapGetters } from 'vuex'
 import { gsap } from 'gsap'
-import NewsTitle from '../../../../components/homepage-kit/demo/logos/news.vue'
-import NewsCard from '../../../../components/homepage-kit/demo/news/card.vue'
-import textGenerator from '../../../../animations/textGenerator'
+import NewsTitle from '../../components/logos/news.vue'
+import NewsCard from '../../components/news/card.vue'
+import textGenerator from '../../helper/textGenerator'
 export default {
   components: {
     NewsTitle,
