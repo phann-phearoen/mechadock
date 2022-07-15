@@ -55,7 +55,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import InnerMenu from '../../InnerMenu.vue'
+import InnerMenu from './InnerMenu.vue'
 export default {
   components: {
     InnerMenu,

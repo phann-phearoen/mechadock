@@ -67,9 +67,9 @@
 
 <script>
 import RightDrawer from '../components/right-drawer.vue'
-import TheFooter from '../components/homepage-kit/demo/the-footer.vue'
+import TheFooter from '../components/the-footer.vue'
 import LeftDrawer from '../components/left-drawer.vue'
-import TheNav from '../components/homepage-kit/demo/the-nav.vue'
+import TheNav from '../components/the-nav.vue'
 export default {
   components: {
     RightDrawer,
