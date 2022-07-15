@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import CustomTitle from '../../components/recruit/recruit-title.vue'
+import CustomTitle from '../components/recruit/recruit-title.vue'
 import { mapGetters } from 'vuex'
 export default {
   components: {

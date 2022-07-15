@@ -26,12 +26,7 @@
 				<div class="hr"></div>
 				<div class="text-caption">{{ item.sub }}</div>
 			</div>
-		</div>
-		<v-img
-			v-if="logo"
-			:src="require(`~/assets/right-drawer/inner-menu-wg.png`)"
-			class="inner-wg"
-		></v-img>      
+		</div>    
 	</v-card>
 </template>
 

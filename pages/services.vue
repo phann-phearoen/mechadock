@@ -70,8 +70,8 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import ServicesTitle from '../../../components/homepage-kit/demo/logos/services.vue'
-import textGenerator from '../../../animations/textGenerator'
+import ServicesTitle from '../components/logos/services.vue'
+import textGenerator from '../helper/textGenerator'
 import { gsap } from 'gsap'
 export default {
   components: {
