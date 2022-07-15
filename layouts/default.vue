@@ -48,20 +48,6 @@
 				</v-card-actions>
 			</v-card>
     </v-dialog>
-    <img
-      v-if="colorPopup"
-      id="color-popup"
-      :src="require(`~/assets/homepage-kit/color-popup.svg`)"
-      width="30%"
-      class="d-none d-sm-block"
-    >
-    <img
-      v-if="colorPopup"
-      id="color-popup-small"
-      :src="require(`~/assets/homepage-kit/color-popup-small.svg`)"
-      width="90%"
-      class="d-block d-sm-none"
-    >
   </v-app>
 </template>
 

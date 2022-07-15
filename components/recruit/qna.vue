@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import textGenerator from '../../../../animations/textGenerator'
+import textGenerator from '../../helper/textGenerator'
 export default {
   methods: {
     textGenerator(freq) {
