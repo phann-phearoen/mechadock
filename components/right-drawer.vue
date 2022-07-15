@@ -20,16 +20,7 @@
 			>
         <div class="pt-3 pl-2 white--text">logo</div>
       </div>
-      <v-img
-        v-else
-        :src="require(`~/assets/right-drawer/logo-egg.png`)" 
-        contain 
-        width="30" 
-        class="mx-auto pt-8 drawer-btn" 
-        style="cursor:pointer" 
-        @click="toggleDrawer"
-			></v-img>
-			
+      
 			<v-icon 
         class="drawer-btn" 
         @click="toggleDrawer" 
