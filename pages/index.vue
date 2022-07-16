@@ -5,6 +5,7 @@
       cycle
       :show-arrows="false"
       style="postion: relative"
+      hide-delimiter-background
     >
       <v-carousel-item
         v-for="(item, i) in items"
