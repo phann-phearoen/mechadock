@@ -1,20 +1,33 @@
 <template>
-  <div
-    id="top"
-    :style="{ backgroundColor: color }"
-  >
-    <v-row class="pa-0 ma-0" justify="center" style="height: 100%">
-      <v-col cols="12" align-self="center">
-        <img
-          :src="require(`~/assets/homepage-kit/demo/icon.svg`)"
-          class="d-block mx-auto"
-        >
-        <div class="text-h5 white--text text-center mt-12">
-          テキストテキストテキストテキスト<br>
-          テキストテキストテキストテキストテキストテキスト
-        </div>
-      </v-col>
-    </v-row>
+  <div id="top">
+    <v-carousel
+      height="fit-content"
+      cycle
+      :show-arrows="false"
+      style="postion: relative"
+    >
+      <v-carousel-item
+        v-for="(item, i) in items"
+        :key="i"
+      >
+        <v-img
+          :src="item"
+          width="100vw"
+          aspect-ratio="1.95"
+        ></v-img>
+      </v-carousel-item>
+    </v-carousel>
+    <v-responsive
+      id="overlay"
+      width="100%"
+      aspect-ratio="1.95"
+    >
+      <v-img
+        :src="require(`~/assets/logo_b.gif`)"
+        max-width="200"
+        contained
+      ></v-img>
+    </v-responsive>
   </div>
 </template>
 
@@ -23,8 +36,13 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      colorPicker: false,
-      localColor: null,
+      items: [
+        require(`~/assets/1-min.jpeg`),
+        require(`~/assets/2-min.jpeg`),
+        require(`~/assets/3-min.jpeg`),
+        require(`~/assets/4-min.jpeg`),
+        require(`~/assets/5-min.jpeg`),
+      ],
     }
   },
   computed: {
@@ -35,7 +53,13 @@ export default {
 
 <style scoped>
 #top {
-  height: 100vh;
-  opacity: .7;
+  position: relative;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 40, 40, .3);
 }
 </style>
