@@ -98,7 +98,15 @@ export const state = () => ({
 			title: '車検・公認車検',
 			head: '車検・公認車検',
 			contents: `
-			
+				<div style="color: white; margin-bottom: 2rem">
+					車検・公認車検<br>
+					大幅なカスタムをした場合でも、公認車検を取得します。<br>
+					安心して公道を走行できます！
+				</div>
+				<img
+					src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_004_001_mid.jpg"
+					style="max-width: 500px;"
+				>
 			`,
 		},
 		{

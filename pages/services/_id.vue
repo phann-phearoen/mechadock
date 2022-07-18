@@ -1,6 +1,6 @@
 <template>
   <v-container class="demo-container">
-    <v-card color="grey" width="100%">
+    <v-card color="grey" width="100%" min-height="80vh">
       <v-card-title class="white--text">
         {{ theService.title }}
       </v-card-title>
