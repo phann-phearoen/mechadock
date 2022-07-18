@@ -42,6 +42,22 @@
         </v-row>
       </v-card-text>
     </v-card>
+    <v-card rounded="lg" outlined dark class="mt-8">
+      <v-card-title class="meka-title">WORKS</v-card-title>
+      <v-card-text>
+        <v-row class="pa-0 ma-0">
+          <v-col
+            v-for="(work, i) in getWorks"
+            :key="i"
+            cols="6"
+            sm="4"
+            md="3"
+          >
+            <work-card :work="work" :id="i"></work-card>
+          </v-col>
+        </v-row>
+      </v-card-text>
+    </v-card>
     <v-dialog v-model="enlarge" max-width="80%" style="position: relative">
       <v-card style="position: relative">
         <v-img
@@ -65,11 +81,17 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+import workCard from '../../components/work-card.vue'
 export default {
+  components: { workCard },
   data() {
     return {
       enlarge: false
     }
+  },
+  computed: {
+    ...mapGetters('home', ['getWorks']),
   },
 }
 </script>
