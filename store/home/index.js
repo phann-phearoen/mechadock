@@ -269,7 +269,279 @@ export const state = () => ({
 			title: 'ペイント・バフ掛け',
 			head: '画像はカタナのフレームのダイヤモンドコート施工前と施工後です。',
 			contents: `
-			
+				<div style="display: flex; margin-bottom: 2rem;">
+					<div style="color: white; ">
+						ペイント・バフ掛け<br><br>
+						画像はカタナのフレームのダイヤモンドコート施工前と施工後です。<br><br>
+						タンクはペイントプロショップ・クニファクトリーさんの手によるものです。<br><br>
+						2015/3/26　バフ掛け前、バフ掛け後の画像追加しました				
+					</div>
+					<img
+						src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_001_mid.jpg"
+						style="width: 300px;"
+					>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_002_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_003_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_004_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_005_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_006_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_007_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_008_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_009_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_010_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_011_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_012_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_013_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_014_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_015_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_007_016_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
 			`,
 		},
 		{
