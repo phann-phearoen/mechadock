@@ -113,7 +113,143 @@ export const state = () => ({
 			title: '各種点検・メンテナンス',
 			head: 'カワサキ　ＺＺＲ1100のキャブレターのオーバーフロー整備依頼で入庫しました。',
 			contents: `
-			
+				<div style="display: flex; margin-bottom: 2rem;">
+					<div style="color: white; ">
+						カワサキ　ＺＺＲ1100のキャブレターのオーバーフロー整備依頼で入庫しました。<br>
+						キャブレターを外すにはタンク、エアクリーナーＢＯＸを外すので、<br>
+						その辺も一緒に点検<br>
+						この機会でしか見れないプラグなどもチェックしたところ<br>
+						ヘッドカバーガスケットからプラグホールにオイルの混入あり<br>
+						プラグホールガスケットを交換。<br>
+						ステムベアリングに違和感があったのでバラしてみたところ<br>
+						ベアリング油分不足で寿命でしたので交換しました。					
+					</div>
+					<img
+						src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_001_mid.jpg"
+						style="width: 300px;"
+					>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_002.jpg"
+							style="width: 500px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_002_cube.jpg"
+							style="width: 500px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_003_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_005_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_006_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_007_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_005_008_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
 			`,
 		},
 		{
