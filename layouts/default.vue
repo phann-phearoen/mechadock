@@ -1,5 +1,5 @@
 <template>
-  <v-app :dark="setTheme">
+  <v-app :dark="setTheme" style="background-color: black">
     <div
       id="the-nav-spacer"
       class="d-block d-sm-none"
