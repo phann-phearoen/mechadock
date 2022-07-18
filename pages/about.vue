@@ -1,6 +1,6 @@
 <template>
   <v-container class="demo-container">
-    <v-card color="grey">
+    <v-card rounded="lg" outlined dark>
       <v-card-title class="white--text meka-title">メカドックについて</v-card-title>
       <v-divider dark></v-divider>
       <v-card-text>
