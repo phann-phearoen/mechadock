@@ -30,6 +30,7 @@
       ></v-img>
     </v-responsive>
     <news></news>
+    <blog></blog>
   </div>
 </template>
 
