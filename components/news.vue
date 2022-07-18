@@ -5,7 +5,7 @@
       width="100%"
     >
       <v-card-title
-        class="font-weight-bold white--text text-h3"
+        class="font-weight-bold white--text meka-title"
       >{{ 'NEWS&TOPICS' }}</v-card-title>
       <v-card-text
         v-for="(item, i) in getDummy"

@@ -2,7 +2,7 @@
   <v-container class="frame-container">
     <v-card color="grey">
       <v-card-actions>
-        <div class="font-weight-bold white--text text-h3">
+        <div class="font-weight-bold white--text meka-title">
           BLOG
         </div>
         <v-spacer></v-spacer>

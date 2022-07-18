@@ -143,26 +143,18 @@ export default {
   max-width: 1000px !important;
   padding: 8rem 0 !important;
 }
-.pattern-title {
-  margin-bottom: 10rem;
+.meka-title {
+  font-size: 3rem;
+  font-weight: 600;
 }
 .text-extra-big {
   font-size: 3rem;
 }
 .text-big {
-  font-size: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 .text-medium {
   font-size: 1rem;
-}
-#color-popup {
-  position: fixed;
-  right: 75px;
-  top: 50px;
-} 
-#color-popup-small {
-  position: fixed;
-  left: 10px;
-  top: 80px;
 }
 </style>
