@@ -548,14 +548,26 @@ export const state = () => ({
 			title: 'フロントフォーク再メッキ加工',
 			head: 'フロントフォーク再メッキ加工',
 			contents: `
-			
+				<div style="color: white">
+				フロントフォーク再メッキ加工
+				</div>
 			`,
 		},
 		{
 			title: '草刈り機、発電機の修理もOK',
 			head: '草刈り機、発電機の修理もOK',
 			contents: `
-			
+			<div style="color: white">
+				草刈り機、発電機の修理もOK
+			</div>
+			<img
+				src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_009_001_mid.jpg"
+				style="max-width: 500px"
+			><br>
+			<img
+				src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_009_002_cube.jpg"
+				style="max-width: 500px"
+			>
 			`,
 		},
 	],
