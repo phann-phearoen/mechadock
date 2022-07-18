@@ -9,7 +9,89 @@ export const state = () => ({
 			title: '夢、妄想（カスタム）相談',
 			head: '夢、妄想（カスタム）相談承ります。',
 			contents: `
-			
+				<div style="display: flex; margin-bottom: 2rem;">
+					<div style="color: white; ">
+						夢、妄想（カスタム）相談承ります。<br><br>
+						一番心配なのは、妄想（カスタム）にかかる金額等ですが、<br>
+						お客様の希望をお聞きした上で金額を決定します。<br>
+						その後、追加金が必要な場合はその理由を説明し、お客様との相談になります。<br>
+						勝手に金額が大きくなるような事はありません。<br>
+						ご安心下さい！
+					</div>
+					<img
+						src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_001.jpg"
+						style="width: 300px;"
+					>
+				</div>
+
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_002.jpg"
+							style="width: 500px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_002.jpg"
+							style="width: 500px;"
+						>
+					</div>
+				</div>
+				<div style="display: flex">
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_004_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+					<div
+						style="
+							width: 300px;
+							height: 300px;
+							overflow: hidden;
+							border: 1.5px solid white;
+							border-radius: 10px;
+							margin-right: 2rem;
+							margin-bottom: 2rem;
+						"
+					>
+						<img
+							src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_003_005_cube.jpg"
+							style="width: 300px;"
+						>
+					</div>
+				</div>
 			`,
 		},
 		{

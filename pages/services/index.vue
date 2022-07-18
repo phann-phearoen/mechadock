@@ -24,6 +24,7 @@
               aspect-ratio="2.812182"
               width="100%"
               style="background-color: orange; border-radius: 10px"
+              @click="viewService(i)"
             >
               <v-row
                 class="pa-0 ma-0"
@@ -59,6 +60,11 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters('home', ['getServices'])
+  },
+  methods: {
+    viewService(id) {
+      this.$router.push(`/services/${id}`)
+    },
   },
 }
 </script>
