@@ -29,6 +29,7 @@
         contained
       ></v-img>
     </v-responsive>
+    <news></news>
   </div>
 </template>
 
