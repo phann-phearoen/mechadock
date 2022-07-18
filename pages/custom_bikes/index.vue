@@ -27,10 +27,49 @@
             </div>
           </v-col>
           <v-col cols="12" sm="6" align-self="center">
-            
+            <v-img
+              src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_004_001_mid.jpg"
+              width="80%"
+              class="rounded d-block mx-auto"
+              style="cursor: pointer"
+              @click="enlarge = true"
+            ></v-img>
+            <div class="text-center">
+              GSX750E カスタム。もちろん車検もばっちり！<br>
+              ▲（画像クリックで車検証を拡大できます）
+            </div>
           </v-col>
         </v-row>
       </v-card-text>
     </v-card>
+    <v-dialog v-model="enlarge" max-width="80%" style="position: relative">
+      <v-card style="position: relative">
+        <v-img
+          src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_004_001_mid.jpg"
+          width="100%"
+          contain
+          class="rounded d-block mx-auto"
+        ></v-img>
+        <v-icon
+          style="
+            position: absolute;
+            right: .5em;
+            top: .5em;
+          "
+          dark
+          @click="enlarge = false"
+        >mdi-close</v-icon>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      enlarge: false
+    }
+  },
+}
+</script>
