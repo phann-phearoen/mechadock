@@ -100,34 +100,6 @@ export const state = () => ({
       `,
       date: '2022-06-07'
     },
-    {
-      title: 'カスタムバイクにSUZUKI　SV650Xを追加しました',
-      contents: `
-        <img
-          src="https://mechadock.com/wp-content/uploads/2022/05/850_5283-2048x1362.jpg"
-          style="display: block; max-width: 100%; min-width: 300px; margin: auto;"
-        >
-      `,
-      date: '2022-05-10',
-    },
-    {
-      title: 'カスタムバイクに　Kawasaki　Z650追加しました。',
-      contents: `
-        <img
-          src="https://mechadock.com/wp-content/uploads/2021/11/850_4575-3-768x512.jpg"
-          style="display: block; max-width: 100%; min-width: 300px; margin: auto;"
-        >
-      `,
-      date: '2021-11-09',
-    },
-    {
-      title: 'カスタムバイクにGS1000S追加しました！',
-      contents: `
-        <div>カスタムバイクに</div>
-        <div>Suzuki　GS1000S追加しました</div>
-      `,
-      date: '2021-09-25',
-    },
   ],
 });
 
