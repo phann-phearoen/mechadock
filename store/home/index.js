@@ -256,7 +256,13 @@ export const state = () => ({
 			title: 'ワンオフカラー製作・フレーム補強',
 			head: 'ワンオフカラー製作・フレーム補強',
 			contents: `
-			
+				<div style="color: white; margin-bottom: 2rem">
+					ワンオフカラー製作・フレーム補強
+				</div>
+				<img
+					src="https://mechadock.com/wp-content/themes/mechadock/img/upload/20120928_006_001_mid.jpg"
+					style="max-width: 500px;"
+				>
 			`,
 		},
 		{
