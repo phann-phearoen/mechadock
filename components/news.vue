@@ -12,6 +12,7 @@
         :key="i"
         class="my-6"
         style="cursor: pointer"
+        @click="viewNews(i)"
       >
         <div class="white--text title">{{ item.title }}</div>
         <v-chip class="date" dark>{{ item.date }}</v-chip>
@@ -42,6 +43,11 @@ export default {
   },
   computed: {
     ...mapGetters('news', ['getDummy']),
+  },
+  methods: {
+    viewNews(id) {
+      this.$router.push(`/news/${id}`)
+    },
   },
 }
 </script>
