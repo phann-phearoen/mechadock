@@ -34,6 +34,9 @@
                   <div class="white--text text-medium font-weight-bold">
                     {{ item.title }}
                   </div>
+                  <div class="white--text text-caption ml-4">
+                    {{ item.head }}
+                  </div>
                 </v-col>
                 <v-col cols="4" align-self="center">
                   <img
