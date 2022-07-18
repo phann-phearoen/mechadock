@@ -36,7 +36,7 @@
     <inner-menu
       :items="items"
       :bg="'white'"
-      :titleSize="'1.4'"
+      :titleSize="'1'"
       @goToPage="goToPage"
     ></inner-menu>
   </div>
