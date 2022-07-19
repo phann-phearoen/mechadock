@@ -131,7 +131,7 @@ export default {
     Contact,
   },
   computed: {
-    ...mapGetters('homepage-kit', ['color']),
+    ...mapGetters('home', ['color']),
   },
   methods: {
     textGenerator(freq) {

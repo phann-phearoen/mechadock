@@ -114,7 +114,7 @@ import Contact from '../../components/recruit/contact.vue'
 export default {
   components: { RecruitTitle, Contact, },
   computed: {
-    ...mapGetters('homepage-kit', ['color']),
+    ...mapGetters('home', ['color']),
   },
   methods: {
     textGenerator(freq) {

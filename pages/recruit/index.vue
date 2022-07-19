@@ -69,7 +69,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters('homepage-kit', ['color'])
+    ...mapGetters('home', ['color'])
   },
   mounted() {
     const tl = gsap.timeline()
