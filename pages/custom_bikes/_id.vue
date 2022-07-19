@@ -9,7 +9,8 @@
         <v-img
           :src="thisWork.img"
           class="d-block mx-auto"
-          width="80%"
+          width="90%"
+          style="border-radius: 10px"
         ></v-img>
       </v-card-text>
       <v-card-title class="meka-title">
@@ -76,10 +77,7 @@
                   aspect-ratio="1"
                   width="100%"
                   class="d-block mx-auto"
-                  style="
-                    border: 2px solid white;
-                    border-radius: 10px;
-                  "
+                  style="border-radius: 10px;"
                 ></v-img>
               </v-col>
             </v-row>
