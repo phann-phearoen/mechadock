@@ -765,6 +765,46 @@ export const state = () => ({
 				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_003_cube_s.jpg',
 			],
 		},
+		{
+			model: 'GSX750S3改',
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_001.jpg',
+			owner: 'Ｋ氏',
+			comment: `
+				調子が悪いとのことで来店され、各部を点検していくうちに 次々と問題が発覚し、
+				フレームからの交換となりました。 現在はオーナー曰く、とても扱いやすいバイクに生まれ変わったとのことです。
+				たまたま当店に部品取り車があったため、費用もかなり抑えることができました。
+			`,
+			spec: [
+				{ マフラー: 'ノジマ' },
+				{ キャブレター: 'ＦＣＲ41' },
+				{ エンジン: 'ＧＳＦ1200' },
+				{ 点火系: 'ＡＳウオタニＳＰ2' },
+				{ 車体周り: '' },
+				{ Ｆフォーク: 'ＧＳＦ1200' },
+				{ Ｆブレーキ: 'ブレンボキャスティング' },
+				{ Ｆホイール: 'ＧＳＦ1200' },
+				{ スイングアーム: 'ＧＳＦ1200' },
+				{ Ｒショック: 'ＧＳＦ1200' },
+				{ Ｒブレーキ: 'ＧＳＦ1200' },
+				{ スピードメーター: 'アクティブ' },
+				{ タコメーター: 'ピボット' },
+				{ ハンドル: 'トマゼリ' },
+			],
+			extra: [
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_001_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_002_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_003_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_004_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_005_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_006_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_007_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_008_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_009_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_010_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_011_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20120910_001_012_cube_s.jpg',
+			],
+		},
 	],
 })
 
