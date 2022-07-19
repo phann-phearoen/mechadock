@@ -838,6 +838,28 @@ export const state = () => ({
 				'https://mechadock.com/wp-content/uploads/2018/01/20160607_001_002_cube_s.jpg',
 			],
 		},
+		{
+			model: 'ゼファー1100',
+			img: 'https://mechadock.com/wp-content/uploads/2017/11/20120530_001_001.jpg',
+			owner: 'O氏',
+			spec: [
+				{ マフラー: 'ストライカー' },
+				{ キャブレター: 'FCR39/DNAフィルター' },
+				{ バックステップ: 'ストライカー' },
+				{ リアショック: 'オーリンズ36PR1C1L' },
+				{ オイルクーラー: 'アクティブラウンドタイプ' },
+				{ ハンドル: 'POSHスーパーロー' },
+				{ 'R,Lマスター': 'NISSINラジアル' },
+				{ '6/23追加': '' },
+				{ Fフォーク: 'オーリンズ' },
+				{ ライトステー: 'POSH' },
+			],
+			extra: [
+				'https://mechadock.com/wp-content/uploads/2017/11/20120530_001_003.jpg',
+				'https://mechadock.com/wp-content/uploads/2017/11/20120530_001_004.jpg',
+				'https://mechadock.com/wp-content/uploads/2017/11/20120530_001_005.jpg',
+			],
+		},
 	],
 })
 
