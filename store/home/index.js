@@ -692,6 +692,31 @@ export const state = () => ({
 				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_003_cube_s.jpg',
 			],
 		},
+		{
+			model: 'GSX750E 1',
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_001.jpg',
+			owner: '和田G',
+			spec: [
+				{ フロントフォーク: 'GSF1200' },
+				{ フロントホイル: 'GSF1200' },
+				{ リヤホイル: 'GSF1200' },
+				{ スイングアーム: 'GSF1200' },
+				{ マフラー: 'ナイトロレーシング' },
+				{ キャブレター: 'FCR39φ' },
+				{ リヤショック: 'オーリンズ　等' },
+			],
+			extra: [
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_004_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_005_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_006_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_007_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_008_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_009_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_001_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_002_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_003_cube_s.jpg',
+			],
+		},
 	],
 })
 
