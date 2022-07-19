@@ -717,6 +717,54 @@ export const state = () => ({
 				'https://mechadock.com/wp-content/uploads/2018/01/20110808_003_003_cube_s.jpg',
 			],
 		},
+		{
+			model: 'V-MAX 1200',
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_001.jpg',
+			owner: '田尾氏',
+			spec: [
+				{
+					Phase: 
+					`レーシングステップ
+					F.Rブレーキローター　BRAKING ウエーブ
+					ブレーキ＆クラッチマスターBREMBO ラジアル` 
+				},
+				{
+					その他: 
+					`GEKKOステッピングタコメーター
+					武川　スクエアLCDパワーテストスピードメータ
+					マルチリフレクターレンズ
+					LEDセクターテール2`
+				},
+				{ '2012/7/8': 'タコメーター、ウィンカー、ミラー変更しました。' },
+				{ タコメーター: 'スタック' },
+				{ 
+					ウィンカー: 
+					`ＦＡＲウィンカーミラー
+					アクティブライセンスホルダー付き
+					ＬＥＤウィンカー
+					`
+				},
+			],
+			extra: [
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_005_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_006_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_007_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_008_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_009_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_010_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_010_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_011_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_012_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_013_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_014_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_015_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_016_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_017_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_001_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_002_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20111021_001_003_cube_s.jpg',
+			],
+		},
 	],
 })
 
