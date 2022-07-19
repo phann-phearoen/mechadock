@@ -120,7 +120,7 @@ export default {
   },
   methods: {
     pickColor() {
-      this.$store.commit('homepage-kit/set_color', this.localColor.hex)
+      this.$store.commit('home/set_color', this.localColor.hex)
       this.colorPicker = false
     },
   },

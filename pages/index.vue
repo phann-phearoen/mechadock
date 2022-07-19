@@ -49,7 +49,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters('homepage-kit', ['color']),
+    ...mapGetters('home', ['color']),
   },
 }
 </script>
