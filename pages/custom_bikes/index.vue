@@ -44,6 +44,7 @@
     </v-card>
     <v-card rounded="lg" outlined dark class="mt-8">
       <v-card-title class="meka-title">WORKS</v-card-title>
+      <v-divider dark></v-divider>
       <v-card-text>
         <v-row class="pa-0 ma-0">
           <v-col
