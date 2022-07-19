@@ -1,5 +1,8 @@
 <template>
-  <v-row class="mx-0 my-2 pa-0 report-card">
+  <v-row
+    class="mx-0 my-2 pa-0 report-card"
+    @click="openReport"
+  >
     <v-col cols="2">
       <v-img
         :src="report.img"
@@ -22,6 +25,11 @@
 <script>
 export default {
   props: ['report', 'id'],
+  methods: {
+    openReport() {
+      alert('未作業。現サイトのデータがぐちゃぐちゃですから。作業後はサービスメニューの各サービスなど同様です。')
+    },
+  },
 }
 </script>
 
