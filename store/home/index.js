@@ -862,6 +862,83 @@ export const state = () => ({
 			],
 		},
 	],
+	reports: [
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140904_001_001_cube_s.jpg',
+			title: '2014　十勝スピードウェイ　バイクフェスティバル　動画',
+			lead: 'ウェアラブルカメラで撮った動画です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2017/07/20170715_001_001_mid.jpg',
+			title: '2017 うに丼ツーリング',
+			lead: '去年、一昨年と雨に降られて 中止になって',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2016/07/20160719_001_001_cube_s.jpg',
+			title: '2016 十勝エコグランプリ・バイクでエコ3H耐久',
+			lead: '7月18日（祝月）十勝サーキットで行われ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2015/11/20151121_001_001_cube_s.jpg',
+			title: 'メカドック忘年会2015',
+			lead: '１１月１４日（土）手稲の花ごころでメカドックの忘年会を開催しました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140924_001_001_cube_s.jpg',
+			title: '2014 Bike de ECO・ワンタンGrando Prix 3Hours',
+			lead: '９／２３（火）　十勝スピードウェイで Bike de ECO・ワンタンGrando Prix 3Hours　が開催されました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140902_001_001_cube_s.jpg',
+			title: '2014 十勝スピードウェイ　バイクフェスティバル',
+			lead: '8/30,31　十勝スピードウェイでバイクフェスティバルが開催されました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140719_001_001_cube_s.jpg',
+			title: 'ダンロップ・サーキットステーション　ＩＮ　十勝スピードウェイ',
+			lead: '７/１３（日）　十勝スピードウェイでダンロップ・サーキットステーションが開催されました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140630_001_001_cube_s.jpg',
+			title: '2014 ウニ丼ツーリング',
+			lead: '6/29（日）毎年恒例のウニ丼ツーリングに行ってきました！',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130710_001_001_cube_s-1.jpg',
+			title: '2013 ウニ丼ツーリング (2)',
+			lead: '6/30（日）ウニ丼ツーリングに行ってきました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20121023_001_001_cube_s.jpg',
+			title: '2012 秋ツーリング',
+			lead: '１０月７日（日）秋のツーリングに行ってきました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20120820_001_001_cube_s.jpg',
+			title: '2012　十勝バイクフェスティバル',
+			lead: '８月１８日、１９日で十勝サーキットで開かれた、十勝バイクフェスティバルへ行ってきました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20120815_001_001_cube_s.jpg',
+			title: 'お盆ツーリング　2012',
+			lead: '今年も８月１１日、１２日の日程で糠平に行ってきました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20120702_001_001_cube_s.jpg',
+			title: '2012 7月1日　うに丼ツーリング',
+			lead: '毎年、恒例のうに丼ツーリング。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20110921_001_001_cube_s-1.jpg',
+			title: 'お盆ツーリング',
+			lead: 'メカドックでは毎年お盆ツーリングで糠平に行っています。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20110805_004_001_cube_s.jpg',
+			title: '十勝KUSAレース4時間耐久',
+			lead: '2008 10/12於：十勝スピードウェイ',
+		},
+	],
 })
 
 export default {
