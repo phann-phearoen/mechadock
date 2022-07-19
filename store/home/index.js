@@ -666,6 +666,32 @@ export const state = () => ({
 				'https://mechadock.com/wp-content/uploads/2018/02/20110808_004_001_cube_s.jpg',
 			],
 		},
+		{
+			model: 'GSX750E 4',
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_001.jpg',
+			owner: '赤塚君',
+			spec: [
+				{ フロントフォーク: 'バンディッド400' },
+				{ フロントホイル: 'GSXR400R' },
+				{ リヤホイル: 'GSXR400R' },
+				{ スイングアーム: 'STD' },
+				{ マフラー: 'モリワキ＋ヨシムラ' },
+				{ キャブレター: 'FCR35φ' },
+				{ リヤショック: 'オーリンズ　等' },
+			],
+			extra: [
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_004_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_005_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_006_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_006_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_007_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_008_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_009_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_001_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_002_cube_s.jpg',
+				'https://mechadock.com/wp-content/uploads/2018/01/20110808_009_003_cube_s.jpg',
+			],
+		},
 	],
 })
 
