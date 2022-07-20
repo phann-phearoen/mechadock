@@ -5,21 +5,11 @@
       tile
       elevation="2"
 		>
-			<div
-        class="rounded-circle mx-auto mt-4 drawer-btn" 
-        style="
-          cursor:pointer;
-          width: 50px;
-          height: 50px;
-          opacity: .7;
-          font-weight: 600;
-        "
-        :style="{ backgroundColor: color }"
-        @click="openColorPicker"
-			>
-        <div class="pt-3 pl-2 white--text">logo</div>
-      </div>
-      
+      <v-icon
+        class="drawer-btn d-block mx-auto mt-4"
+        @click="toTop"
+      >mdi-home</v-icon>
+
 			<v-icon 
         class="drawer-btn" 
         @click="toggleDrawer" 
@@ -95,8 +85,8 @@ export default {
       }
       this.$router.push(route)
     },
-    openColorPicker() {
-      this.$nuxt.$emit('openColorPicker')
+    toTop() {
+      this.$router.push('/')
     },
   },
 }
