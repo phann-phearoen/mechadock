@@ -27,7 +27,7 @@ export default {
   props: ['report', 'id'],
   methods: {
     openReport() {
-      alert('未作業。現サイトのデータがぐちゃぐちゃですから。作業後はサービスメニューの各サービスなど同様です。')
+      alert('未作業。作業後はサービスメニューの各サービスなど同様です。')
     },
   },
 }
