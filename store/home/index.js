@@ -939,6 +939,198 @@ export const state = () => ({
 			lead: '2008 10/12於：十勝スピードウェイ',
 		},
 	],
+	journals: [
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2014/10/20171129_001_001.jpg',
+			title: 'Kawasaki　Z1000R2フルレストア　最終回',
+			lead: 'Z1000R2のフルレストアの続きです。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20171109_001_001_mid.jpg',
+			title: 'Kawasaki　Z1000R2フルレストア　其の4',
+			lead: 'Z1000R2のフルレストアの続きです。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20171102_001_001_mid.jpg',
+			title: 'Kawasaki　Z1000R2フルレストア　其の3',
+			lead: 'Z1000R2のフルレストアの続きです',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20171018_001_001_mid.jpg',
+			title: 'Kawasaki　Z1000R2フルレストア　其の2',
+			lead: 'Z1000R2のフルレストアの続きです',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20171016_001_001_mid.jpg',
+			title: 'Kawasaki　Z1000R2フルレストア　其の1',
+			lead: 'Kawasaki　Z1000R2のフルレストアの様子です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20161014_001_001_mid.jpg',
+			title: 'Z1のエンジン修理　其の2',
+			lead: '10月11日にUPしたZ1のエンジン修理',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20161011_001_001_mid.jpg',
+			title: 'Z1のエンジン修理　其の1',
+			lead: 'Z1のエンジンの調子が良くないとの事で ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20160627_001_001_mid.jpg',
+			title: 'SUZUKI　GSX1100Sレストア　其の2',
+			lead: 'カタナ1100のレストアの続きです。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20160621_001_001_mid.jpg',
+			title: 'SUZUKI　GSX1100Sレストア',
+			lead: 'カタナ1100をレストアしました。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20160113_001_001_mid.jpg',
+			title: 'ドカティ　デスモシングル修理　其の2',
+			lead: 'イエローデスモの修理の続きです。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20151224_001_001_mid.jpg',
+			title: 'ドカティ　デスモシングル修理',
+			lead: 'ドカティ・イエローデスモの修理です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20151010_001_001_mid.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　最終回',
+			lead: 'KAWASAKI Z1レストア＆カスタム',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150929_001_001_mid.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　其の5',
+			lead: 'KAWASAKI Z1レストア＆カスタム',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150919_001_001_mid.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　其の4',
+			lead: 'KAWASAKI Z1レストア＆カスタム',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150914_001_001_mid.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　其の3',
+			lead: 'KAWASAKI Z1レストア＆カスタム',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150820_001_001_mid.jpg',
+			title: 'HONDA グロムのボアアップ',
+			lead: 'グロムのボアアップです。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150703_001_001_mid-1.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　其の2',
+			lead: 'Z1のレストア＆カスタム日記その2です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150616_001_001_mid.jpg',
+			title: 'KAWASAKI Z1レストア＆カスタム日記　其の1',
+			lead: 'Z1のレストア＆カスタム日記です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20150520_001_001_mid.jpg',
+			title: 'TZR250のエンジンO／H',
+			lead: 'ＴＺＲ250のエンジンオーバーホールの様',
+		},
+		{
+			img: '',
+			title: 'Z1 レストア最終回',
+			lead: '今回で最終回となります。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20141011_002_001_mid.jpg',
+			title: 'Z1 レストア　組み上げ色々',
+			lead: 'Ｚ１の組み上げの様子です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140909_001_001_mid.jpg',
+			title: 'Z1　組み上げ途中経過',
+			lead: 'Ｚ1の組み上げの途中経過です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140821_002_001_mid.jpg',
+			title: 'Z1 スポーク交換',
+			lead: 'Ｚ１のスポークの交換です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140818_001_001_mid.jpg',
+			title: 'Ｚ１　エンジン搭載',
+			lead: 'Ｚ１にエンジンを載せたところまでＵＰです',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140802_001_001_mid.jpg',
+			title: 'Z1 クランクとミッション組み付け',
+			lead: 'クランクとミッションの組み付け作業です。',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140731_001_001_mid.jpg',
+			title: 'Z1　ネジ切り＆洗い',
+			lead: '加工からあがってきたＺ1のエンジンのネジ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140722_001_001_mid.jpg',
+			title: 'Z1 加工＆塗装があがってきました',
+			lead: '加工は内燃機と塗装とバフ掛け 塗装はフレ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140624_001_001_mid.jpg',
+			title: 'KAWASAKI Z1のレストア日記　其の２',
+			lead: '今回は、エンジンヘッドのフィンの補修です',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20140612_001_001_mid-1.jpg',
+			title: 'ゼファー1100のヘッドカバーガスケット交換',
+			lead: 'ゼファー1100のヘッドカバーから、オイ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20131022_001_001_mid.jpg',
+			title: 'KAWASAKI ZX-14R　トップケース取り付け',
+			lead: 'ＺＸ－14Ｒにヘブコ＆ベッカーのトップケ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20131001_001_001_mid.jpg',
+			title: 'CB1000のＦＣＲオーバーホール＆ワイヤー交換',
+			lead: 'ＣＢ1000ＳＦのＦＣＲのオーバーホール',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130906_001_001_mid.jpg',
+			title: 'Z1のワイヤー交換＆メインジェット交換',
+			lead: 'Ｚ1のワイヤー交換とメインジェット交換で',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130712_001_001_mid.jpg',
+			title: 'HONDA CB1000SF　 Ｆ，Ｒキャリパー交換',
+			lead: 'ＨＯＮＤＡ　ＣＢ1000ＳＦのキャリパー',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130618_001_001_mid.jpg',
+			title: 'スズキGSX-R1100 88　Ｆフォーク交換',
+			lead: 'スズキＧＳＸ－Ｒ1100　88　のＦフォ',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130614_001_001_mid.jpg',
+			title: 'ETC取り付け',
+			lead: 'ゼファー1100にＥＴＣを取り付けました',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130528_001_001_mid.jpg',
+			title: 'CRF250X',
+			lead: 'オフ車仕様からモタード仕様に変更しました',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130517_001_001_mid.jpg',
+			title: 'KAWASAKI　KZ1000　MkⅡチェーン＆スプロケ＆Ｒサス交換',
+			lead: '色のチョイスがグッドなバイクに仕上がりま',
+		},
+		{
+			img: 'https://mechadock.com/wp-content/uploads/2018/01/20130502_001_001_mid.jpg',
+			title: 'CB750のステムベアリング交換＆オイルクーラー取り付け',
+			lead: '',
+		},
+	],
 })
 
 export default {

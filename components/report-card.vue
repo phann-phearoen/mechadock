@@ -8,7 +8,7 @@
         :src="report.img"
         width="90%"
         aspect-ratio="1"
-        class="d-block mx-auto"
+        class="d-block mx-auto rounded"
       ></v-img>
     </v-col>
     <v-col align-self="center">
