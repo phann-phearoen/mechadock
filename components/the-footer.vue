@@ -2,19 +2,12 @@
   <v-card id="the-footer" outlined>
     <v-row no-gutters justify="center" id="the-row">
       <v-col align-self="center" cols="12" sm="2">
-        <div
-          class="rounded-circle mx-auto mt-4 drawer-btn" 
-          style="
-            cursor:pointer;
-            width: 50px;
-            height: 50px;
-            opacity: .7;
-            font-weight: 600;
-          "
-          :style="{ backgroundColor: color }"
-        >
-          <div class="pt-3 pl-2 white--text">logo</div>
-        </div>
+        <v-img
+          :src="require(`~/assets/logo_b.gif`)"
+          width="90%"
+          style="cursor: pointer"
+          @click="toTop"
+        ></v-img>
       </v-col>
       <v-col
         align-self="center"
@@ -27,7 +20,7 @@
       </v-col>
       <v-col cols="12">
         <div class="text-center">
-          Copyright ©
+          ©{{ new Date().getFullYear() }}バイクプラザ メカドック All rights reserved.
         </div>
       </v-col>
     </v-row>
@@ -39,6 +32,11 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters('homepage-kit', ['color']),
+  },
+  methods: {
+    toTop() {
+      this.$router.push('/')
+    },
   },
 }
 </script>
