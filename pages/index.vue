@@ -6,6 +6,7 @@
       :show-arrows="false"
       style="postion: relative"
       hide-delimiter-background
+      interval="4000"
     >
       <v-carousel-item
         v-for="(item, i) in items"
