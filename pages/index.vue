@@ -11,10 +11,11 @@
         v-for="(item, i) in items"
         :key="i"
       >
-        <img
+        <v-img
           :src="item"
-          style="width: 100vw"
-        >
+          width="100vw"
+          aspect-ratio="1.95"
+        ></v-img>
       </v-carousel-item>
     </v-carousel>
     <v-responsive
